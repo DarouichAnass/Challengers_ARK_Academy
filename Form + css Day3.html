@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="Day3.css">
+
+</head>
+<body>
+    
+    <div class="background-video">
+      
+            <video autoplay muted loop>
+                <source src="video1.mp4" type="video/mp4">
+
+              </video>
+              <div>
+            </video>
+            <form >
+                <label class="label1" for="situtation">Situtation:</label>
+                <select id="situtation" name="situtation">
+                <option value="single">Célibataire</option>
+                <option value="married">Marié(e)</option>
+                <option value="divorced">Divorcé(e)</option>
+                <option value="widowed">Veuf/Veuve</option>
+                </select>
+                <br>
+                
+                <label class="label1" for="first_name">Prénom:</label>
+                <input type="text" id="first_name" name="first_name" required>
+                <br>
+                
+                <label class="label1" for="last_name">Nom:</label>
+                <input type="text" id="last_name" name="last_name" required>
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <label class="label2">Genre:</label>
+                        </td>
+                        <td>
+                            <label class="label3" for="male">Homme</label> 
+                        </td>
+                        <td>
+                            <input class="label3" type="radio" id="male" name="gender" value="male" required>
+    
+                        </td>
+                        <td>
+                            <label  class="label3" for="female">Femme</label>
+    
+                        </td>
+                        <td>
+                            <input class="label3"type="radio" id="female" name="gender" value="female" required>
+                           
+                        </td>
+                        <td>
+    
+                        </td>
+                    </tr>
+                </table>
+                
+                
+                
+                <br>
+                
+                <label class="label1" for="email">Email:</label>
+                <input  type="email" id="email" name="email" required>
+                <br>
+                
+                <label class="label1" for="date_of_birth">Date de naissance:</label>
+                <input class="date" type="date" id="date_of_birth" name="date_of_birth" required>
+                <br>
+                
+                <label class="label1" for="address">Adresse:</label>
+                <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+                <br>
+                <button type="reset">Réinitialiser</button>
+                <input type="submit" value="Envoyer">
+                
+            </form>
+        </div>
+            
+    </div>
+    
+</body>
+</html>
