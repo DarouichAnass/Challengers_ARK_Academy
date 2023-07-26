@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+        <title>Ma page avec des titres de type T2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mystyle.css">
+     
+  <title>Ma page avec de tableau et form</title>
+  
+</head>
+<body>
+  
+
+     <t2>exercice 1</t2> </br><br>
+    <table >
+        <tr>
+            <td class="col2"></td>
+            <td class="col2"></td>
+            <td class="col2" colspan="2"></td>
+        </tr>
+        
+        <tr>
+            <td class="col3" colspan="2" rowspan="2"></td>
+            <td colspan="2" class="col3"></td></td>
+        </tr>
+
+        <tr>
+            <td class="col5"></td> 
+        </tr>
+    </table></br><br>
+
+    <t2>exercice 2</t2></br><br>
+    <form id="from" name="form" >
+        <fieldset>
+          <legend>Formulaire:</legend>
+
+          <select id="situation" ">
+            <option >--None--</option>
+            <option id="C" value="0">Celibataire</option>
+            <option id="M" value="1">Marier</option>
+            <option id="D">Divorcer</option>
+          </select></br><br>
+
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" placeholder="Nom"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" placeholder="Prenom"><br><br>
+          
+          
+            <Table >
+                <tr>
+                    <td class="table">
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Male" name="Male" value="Male">
+                    </td>
+                    <td> 
+                        <label for="Female">Female</label>
+                        <input type="radio" id="Female" name="Female" value="Female">
+                    </td>
+                </tr>
+            </Table>
+            <br>
+            <label for="email">Email : </label>
+            <input type="email" id ="email" name="email" placeholder="email">
+          <br><br>
+            <label for="date">Date of Birth :</label>
+            <input type="date" id="date"><br><br>
+            <label for="Address">Address : </label><br>
+            <textarea rows="4" cols="50" name="Address" form="form">
+                Enter text here...</textarea>          <br><br>
+
+          <input type="submit" value="Submit">
+
+          
+        </fieldset>
+      </form><br><br>
+<div>fin</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!--
+<form action="/action_page.php">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+  <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+  <label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+-->

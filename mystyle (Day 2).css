@@ -1,0 +1,81 @@
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      background-color: azure;
+    }
+
+    li {
+      margin-bottom: 10px;
+      padding-left: 10px;
+    }
+
+    .book-info {
+      display: inline-block;
+      margin-right: 10px;
+      color: green; /* Couleur verte pour les éléments */
+    }
+    
+    .book-title{ 
+        color: brown;
+        size: 50px;
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+    .book-year{
+        color: rgb(69, 6, 94);
+        size: 50px;
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+    .book-type{
+        color: rgb(197, 138, 65);
+        size: 50px;
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+    .col2 {
+      width: 130px;
+      height: 75px;
+      background-color: darkgray;
+    }
+
+  .col3 {
+      width: 120px;
+      height: 40px;
+      background-color: darkgray;
+    }
+    .col5 {
+      width: 240px;
+      height: 40px;
+      background-color: darkgray;
+    }
+    
+    #tab{
+      border : "1px";
+    }
+    .table{
+      width: 70px;
+      
+    }
+    .nav1 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    .tt{
+      
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .tt:hover{
+      background-color: #111;
+    }
+   
